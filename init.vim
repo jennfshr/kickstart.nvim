@@ -16,3 +16,7 @@ au FileType sh set foldmethod=syntax
 syntax enable
 
 autocmd BufWritePre * :%s/\s\+$//e
+
+set foldnestmax=1
+
+set foldclose=all
